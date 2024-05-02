@@ -1,0 +1,31 @@
+.Header--container {
+    background-color: #000;
+}
+
+.Header--typical {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    height: 100vh;
+}
+
+.Header--nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+    color: #fff;
+}
+
+.Header--nav p {
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}

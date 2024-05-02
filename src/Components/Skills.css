@@ -1,0 +1,7 @@
+.Skills {
+    display: flex;
+    padding: 30px;
+    height: 100vh;
+    font-size: 70px;
+    font-weight: bold;
+}

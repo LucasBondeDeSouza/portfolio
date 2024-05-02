@@ -6,22 +6,39 @@ import './Header.css'
 export default () => {
     return (
         <div className="Header--container">
-            <p>
-                I'm Lucas{' '}
-                <Typical
-                    loop={Infinity}
-                    steps={[
-                        'Developer',
-                        3000,
-                        'Designer',
-                        3000,
-                        'UI/UX',
-                        3000,
-                        'Motion',
-                        3000
-                    ]}
-                />
-            </p>
+            <div className="Header--nav">
+                <p>Skills</p>
+                <p>Projects</p>
+                <p>About</p>
+                <p>Contact</p>
+            </div>
+
+            <div className="Header--avatar"></div>
+
+            <div className="Header--typical">
+                <p>
+                    I'm Lucas Bonde{' '}
+                    <Typical
+                        loop={Infinity}
+                        steps={[
+                            'Dev Web',
+                            3000,
+                            '',
+                            500,
+                            'Dev Front-End',
+                            3000,
+                            '',
+                            500,
+                            'Dev Back-End',
+                            3000,
+                            '',
+                            500,
+                            'UI/UX',
+                            3000
+                        ]}
+                    />
+                </p>
+            </div>
         </div>
     )
 }
