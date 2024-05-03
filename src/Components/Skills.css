@@ -1,7 +1,173 @@
-.Skills {
+.Skills--container {
     display: flex;
-    padding: 30px;
-    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    height: 130vh;
     font-size: 70px;
     font-weight: bold;
+    background-color: #222;
+    color: #fff;
+}
+
+.Skills--line {
+    padding: 10px 25px;
+} 
+
+.Skills--loading_line {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Skills--image img {
+    height: 40px;
+    width: 40px;
+}
+
+.Skills--loading_bar  {
+    height: 30px;
+    border-radius: 10px;
+}
+
+.Skills--image, .Skills--loading_bar {
+    animation: toRight .9s;
+}
+
+.html {
+    background-color: #E34E24;
+    animation: progressAnimationHTML 3s ease-out forwards, toRight .9s;
+}
+
+.css {
+    background-color: #0277BD;
+    animation: progressAnimationCSS 3s ease-out forwards, toRight .9s;
+}
+
+.js {
+    background-color: #D6BA32;
+    animation: progressAnimationJS 3s ease-out forwards, toRight .9s;
+}
+
+.python {
+    animation: progressAnimationPython 3s ease-out forwards, toRight .9s;
+}
+
+.java {
+    animation: progressAnimationJava 3s ease-out forwards, toRight .9s;
+}
+
+.react {
+    background-color: #00CCFF;
+    animation: progressAnimationReact 3s ease-out forwards, toRight .9s;
+}
+
+.vue {
+    background-color: #41B783;
+    animation: progressAnimationVue 3s ease-out forwards, toRight .9s;
+}
+
+.mysql {
+    animation: progressAnimationMysql 3s ease-out forwards, toRight .9s;
+}
+
+.git {
+    background-color: #F05133;
+    animation: progressAnimationGit 3s ease-out forwards, toRight .9s;
+}
+
+@keyframes progressAnimationHTML {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes progressAnimationCSS {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes progressAnimationJS {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes progressAnimationPython {
+    0% {
+        width: 0;
+        background-color: #3571A3;
+    }
+    100% {
+        width: 65%;
+        background-color: #FFCC3D;
+    }
+}
+
+@keyframes progressAnimationJava {
+    0% {
+        width: 0;
+        background-color: #F52C2C;
+    }
+    100% {
+        width: 50%;
+        background-color: #0776BD;
+    }
+}
+
+@keyframes progressAnimationReact {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 45%;
+    }
+}
+
+@keyframes progressAnimationVue {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 20%;
+    }
+}
+
+@keyframes progressAnimationMysql {
+    0% {
+        width: 0;
+        background-color: #05658F;
+    }
+    100% {
+        width: 75%;
+        background-color: #E18C00;
+    }
+}
+
+@keyframes progressAnimationGit {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes toRight {
+    from {
+        transform: translateX(-700px);
+    }
+    to {
+        transform: translate(0px);
+    }
 }

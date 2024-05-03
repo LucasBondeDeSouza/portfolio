@@ -1,15 +1,8 @@
 .Header--container {
-    background-color: #000;
-}
-
-.Header--typical {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    text-align: center;
-    font-size: 70px;
-    font-weight: bold;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #222;
     height: 100vh;
 }
 
@@ -28,4 +21,63 @@
     border-radius: 20px;
     font-weight: bold;
     cursor: pointer;
+}
+
+.Header--person {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.Header--avatar {
+    display: flex;
+    justify-content: center;
+    animation: toRight .9s;
+}
+
+.Header--avatar img {
+    height: 250px;
+    transform: rotate(-25deg);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    animation: climb 4s infinite;
+}
+
+.Header--typical {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    animation: toLeft .9s;
+}
+
+@keyframes toRight {
+    from {
+        transform: translateX(-700px);
+    }
+    to {
+        transform: translate(0px);
+    }
+}
+
+@keyframes toLeft {
+    from {
+        transform: translateX(550px);
+    }
+    to {
+        transform: translate(0px);
+    }
+}
+
+@keyframes climb {
+    50% {
+        transform: rotate(25deg);
+    }
+
+    100% {
+        transform: rotate(-25deg);
+    }
 }
