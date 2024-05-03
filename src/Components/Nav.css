@@ -1,0 +1,17 @@
+.Nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+    color: #fff;
+    background-color: #222;
+}
+
+.Nav p {
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
