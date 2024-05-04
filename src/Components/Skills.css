@@ -2,11 +2,9 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 20px;
     height: 130vh;
     font-size: 70px;
     font-weight: bold;
-    background-color: #222;
     color: #fff;
 }
 
