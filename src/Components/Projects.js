@@ -78,7 +78,7 @@ export default () => {
                                 <h2>Cardápio Online</h2>
                             </div>
                             <div className="Projects--description">
-                                <p>odoeodkoekdoek</p>
+                                <p> versão eletrônica do menu de um restaurante, permitindo que os clientes visualizem opções de comida e façam pedidos.</p>
                             </div>
                             <div className="Projects--languages">
                                 <img src={Logo_HTML} alt="HTML" />
@@ -100,7 +100,7 @@ export default () => {
                                 <h2>Clone Netflix</h2>
                             </div>
                             <div className="Projects--description">
-                                <p>odoeodkoekdoek</p>
+                                <p>Clone da página principal da Netflix reproduz a Home da Netflix, proporcionando uma experiência semelhante.</p>
                             </div>
                             <div className="Projects--languages">
                                 <img src={Logo_React} alt="React" />
