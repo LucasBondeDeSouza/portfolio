@@ -3,13 +3,14 @@
     flex-direction: column;
     gap: 30px;
     height: 100vh;
-    margin-top: 90px;
+    background-color: #17202C;
 }
 
 .Header--person {
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    margin-top: 100px;
+    gap: 50px;
 }
 
 .Header--avatar {
@@ -21,10 +22,10 @@
 
 .Header--avatar img {
     height: 250px;
-    transform: rotate(-25deg);
+    transform: rotate(-15deg);
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
-    animation: climb 4s infinite;
+    animation: climb 5.5s infinite;
 }
 
 .Header--typical {
@@ -58,10 +59,28 @@
 
 @keyframes climb {
     50% {
-        transform: rotate(25deg);
+        transform: rotate(15deg);
     }
 
     100% {
-        transform: rotate(-25deg);
+        transform: rotate(-15deg);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .Header--person {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 70px;
+    }
+
+    .Header--avatar img {
+        height: 260px;
+    }
+
+    .Header--typical {
+        font-size: 70px;
     }
 }

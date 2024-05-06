@@ -5,90 +5,108 @@ import './Skills.css'
 import Logo_HTML from '../assets/logo-html.png'
 import Logo_CSS from '../assets/logo-css.png'
 import Logo_JS from '../assets/logo-js.png'
-import Logo_Python from '../assets/logo-python.png'
 import Logo_Java from '../assets/logo-java.png'
+import Logo_Python from '../assets/logo-python.png'
 import Logo_React from '../assets/logo-react.png'
 import Logo_Vue from '../assets/logo-vue.png'
 import Logo_MySql from '../assets/logo-mysql.png'
 import Logo_Git from '../assets/logo-git.png'
+import Logo_NodeJs from '../assets/logo-nodejs.png'
 
 export default () => {
-
     return (
-        <div className="Skills--container">
+        <div className="Skills">
             <p>Skills</p>
 
-            <div className="Skills--line">
-                <div className="Skills--loading_line">
-                    <div className="Skills--image">
-                        <img src={Logo_HTML} alt="Logo HTML" />
+            <div className="Skills--group">
+                <div className="Skills--card">
+                    <div className="Skills-image">
+                        <img src={Logo_HTML} alt="Html" />
                     </div>
-
-                    <div className="Skills--loading_bar html"></div>
+                    <div className="Skills--name">
+                        <p>HTML</p>
+                    </div>
                 </div>
 
-                <div className="Skills--loading_line">
-                    <div className="Skills--image">
-                        <img src={Logo_CSS} alt="Logo CSS" />
+                <div className="Skills--card">
+                    <div className="Skills-image">
+                        <img src={Logo_CSS} alt="Css" />
                     </div>
-
-                    <div className="Skills--loading_bar css"></div>
+                    <div className="Skills--name">
+                        <p>CSS</p>
+                    </div>
                 </div>
 
-                <div className="Skills--loading_line">
-                    <div className="Skills--image">
-                        <img src={Logo_JS} alt="Logo js" />
+                <div className="Skills--card">
+                    <div className="Skills-image">
+                        <img src={Logo_JS} alt="JS" />
                     </div>
-
-                    <div className="Skills--loading_bar js"></div>
+                    <div className="Skills--name">
+                        <p>JavaScript</p>
+                    </div>
                 </div>
 
-                <div className="Skills--loading_line">
-                    <div className="Skills--image">
-                        <img src={Logo_Python} alt="Logo Python" />
+                <div className="Skills--card">
+                    <div className="Skills-image">
+                        <img src={Logo_Java} alt="Java" />
                     </div>
-
-                    <div className="Skills--loading_bar python"></div>
+                    <div className="Skills--name">
+                        <p>Java</p>
+                    </div>
                 </div>
 
-                <div className="Skills--loading_line">
-                    <div className="Skills--image">
-                        <img src={Logo_Java} alt="Logo Java" />
+                <div className="Skills--card">
+                    <div className="Skills-image">
+                        <img src={Logo_Python} alt="Python" />
                     </div>
-
-                    <div className="Skills--loading_bar java"></div>
+                    <div className="Skills--name">
+                        <p>Python</p>
+                    </div>
                 </div>
 
-                <div className="Skills--loading_line">
-                    <div className="Skills--image">
-                        <img src={Logo_React} alt="Logo React" />
+                <div className="Skills--card">
+                    <div className="Skills-image">
+                        <img src={Logo_NodeJs} alt="NodeJs" />
                     </div>
-
-                    <div className="Skills--loading_bar react"></div>
+                    <div className="Skills--name">
+                        <p>Node.Js</p>
+                    </div>
                 </div>
 
-                <div className="Skills--loading_line">
-                    <div className="Skills--image">
-                        <img src={Logo_Vue} alt="Logo Vue" />
+                <div className="Skills--card">
+                    <div className="Skills-image">
+                        <img src={Logo_React} alt="React" />
                     </div>
-
-                    <div className="Skills--loading_bar vue"></div>
+                    <div className="Skills--name">
+                        <p>React</p>
+                    </div>
                 </div>
 
-                <div className="Skills--loading_line">
-                    <div className="Skills--image">
-                        <img src={Logo_MySql} alt="Logo MySql" />
+                <div className="Skills--card">
+                    <div className="Skills-image">
+                        <img src={Logo_Vue} alt="Vue" />
                     </div>
-
-                    <div className="Skills--loading_bar mysql"></div>
+                    <div className="Skills--name">
+                        <p>Vue</p>
+                    </div>
                 </div>
 
-                <div className="Skills--loading_line">
-                    <div className="Skills--image">
-                        <img src={Logo_Git} alt="Logo Git" />
+                <div className="Skills--card">
+                    <div className="Skills-image">
+                        <img src={Logo_MySql} alt="MySql" />
                     </div>
+                    <div className="Skills--name">
+                        <p>MySql</p>
+                    </div>
+                </div>
 
-                    <div className="Skills--loading_bar git"></div>
+                <div className="Skills--card">
+                    <div className="Skills-image">
+                        <img src={Logo_Git} alt="Git" />
+                    </div>
+                    <div className="Skills--name">
+                        <p>Git</p>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,15 +1,27 @@
-.Nav {
+header {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-block: 10px;
-    gap: 20px;
+    justify-content: space-around;
+    padding: 15px 10px;
+    background-color: #222;
     color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     position: fixed;
     z-index: 999;
     top: 0;
     left: 0;
     right: 0;
+}
+
+h1 {
+    display: none;
+}
+
+.Nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .Nav p {
@@ -18,4 +30,18 @@
     border-radius: 20px;
     font-weight: bold;
     cursor: pointer;
+    transition: all .3s ease;
+}
+
+.Nav p:hover {
+    border-color: #222;
+    color: #222;
+    background-color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        display: block;
+        font-size: 40px;
+    }
 }

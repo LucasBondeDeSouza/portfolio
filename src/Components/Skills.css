@@ -1,171 +1,79 @@
-.Skills--container {
+.Skills {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    margin-top: -80px;
-    font-size: 70px;
-    font-weight: bold;
-    color: #fff;
+    align-items: center;
+    justify-content: center;
+    background-color: #17202C;
+    padding-top: 70px;
 }
 
-.Skills--line {
-    padding: 10px 25px;
-} 
+.Skills p {
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+}
 
-.Skills--loading_line {
+.Skills--group {
     display: flex;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    max-width: 500px;
     gap: 20px;
 }
 
-.Skills--image img {
-    height: 40px;
-    width: 40px;
-}
-
-.Skills--loading_bar  {
-    height: 30px;
+.Skills--card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+    width: 180px;
+    background: #4E555E;
     border-radius: 10px;
+    cursor: pointer;
+    transition: all .5s ease;
 }
 
-.Skills--image, .Skills--loading_bar {
-    animation: toRight .9s;
+.Skills--card:hover {
+    transform: translateY(-10px);
 }
 
-.html {
-    background-color: #E34E24;
-    animation: progressAnimationHTML 3s ease-out forwards, toRight .9s;
+.Skills--card img {
+    height: 150px;
 }
 
-.css {
-    background-color: #0277BD;
-    animation: progressAnimationCSS 3s ease-out forwards, toRight .9s;
+.Skills--name {
+    text-align: center;
+    color: #fff;
+    padding: 10px;
 }
 
-.js {
-    background-color: #D6BA32;
-    animation: progressAnimationJS 3s ease-out forwards, toRight .9s;
+.Skills--name p {
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.python {
-    animation: progressAnimationPython 3s ease-out forwards, toRight .9s;
-}
-
-.java {
-    animation: progressAnimationJava 3s ease-out forwards, toRight .9s;
-}
-
-.react {
-    background-color: #00CCFF;
-    animation: progressAnimationReact 3s ease-out forwards, toRight .9s;
-}
-
-.vue {
-    background-color: #41B783;
-    animation: progressAnimationVue 3s ease-out forwards, toRight .9s;
-}
-
-.mysql {
-    animation: progressAnimationMysql 3s ease-out forwards, toRight .9s;
-}
-
-.git {
-    background-color: #F05133;
-    animation: progressAnimationGit 3s ease-out forwards, toRight .9s;
-}
-
-@keyframes progressAnimationHTML {
-    0% {
-        width: 0;
+@media screen and (min-width: 768px) {
+    .Skills h2 {
+        font-size: 70px;
     }
-    100% {
-        width: 90%;
-    }
-}
 
-@keyframes progressAnimationCSS {
-    0% {
-        width: 0;
+    .Skills--group {
+        max-width: 900px;
     }
-    100% {
-        width: 90%;
-    }
-}
 
-@keyframes progressAnimationJS {
-    0% {
-        width: 0;
+    .Skills--card {
+        height: 250px;
+        width: 200px;
     }
-    100% {
-        width: 80%;
-    }
-}
 
-@keyframes progressAnimationPython {
-    0% {
-        width: 0;
-        background-color: #3571A3;
+    .Skills--card img {
+        height: 160px;
     }
-    100% {
-        width: 65%;
-        background-color: #FFCC3D;
-    }
-}
 
-@keyframes progressAnimationJava {
-    0% {
-        width: 0;
-        background-color: #F52C2C;
-    }
-    100% {
-        width: 50%;
-        background-color: #0776BD;
-    }
-}
-
-@keyframes progressAnimationReact {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 45%;
-    }
-}
-
-@keyframes progressAnimationVue {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 20%;
-    }
-}
-
-@keyframes progressAnimationMysql {
-    0% {
-        width: 0;
-        background-color: #05658F;
-    }
-    100% {
-        width: 75%;
-        background-color: #E18C00;
-    }
-}
-
-@keyframes progressAnimationGit {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 80%;
-    }
-}
-
-@keyframes toRight {
-    from {
-        transform: translateX(-700px);
-    }
-    to {
-        transform: translate(0px);
+    .Skills--name p {
+        font-size: 30px;
     }
 }

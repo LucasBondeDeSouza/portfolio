@@ -4,11 +4,15 @@ import './Nav.css'
 
 const Nav = ({ scrollToSkills }) => {
     return (
-        <div className="Nav">
-            <p onClick={scrollToSkills}>Skills</p>
-            <p>Projects</p>
-            <p>Contact</p>
-        </div>
+        <header>
+            <h1>Portfólio</h1>
+            <div className="Nav">
+                <p onClick={scrollToSkills}>Skills</p>
+                <p>About</p>
+                <p>Projects</p>
+                <p>Contact</p>
+            </div>
+        </header>
     );
 }
 
