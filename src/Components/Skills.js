@@ -17,7 +17,7 @@ import Logo_NodeJs from '../assets/logo-nodejs.png'
 
 export default () => {
     return (
-        <div className="Skills">
+        <div id="skills" className="Skills">
             <p>Skills</p>
 
             <div className="Skills--group">

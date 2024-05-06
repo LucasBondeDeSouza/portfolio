@@ -22,7 +22,7 @@ import Logo_NodeJs from '../assets/logo-nodejs.png'
 
 export default () => {
     return (
-        <div className="Projects">
+        <div id="projects" className="Projects">
             <p>Projects</p>
 
             <div className="Projects--group">
@@ -104,6 +104,7 @@ export default () => {
                             </div>
                             <div className="Projects--languages">
                                 <img src={Logo_React} alt="React" />
+                                <img src={Logo_CSS} alt="CSS" />
                             </div>
                         </div>
                     </div>

@@ -1,15 +1,21 @@
 import React from "react";
-
 import './Nav.css'
 
-const Nav = ({ scrollToSkills }) => {
+const Nav = () => {
+    const scrollToSection = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+        }
+    }
+
     return (
         <header>
-            <h1>Portfólio</h1>
+            <h1 onClick={() => scrollToSection('main')}>Portfólio</h1>
             <div className="Nav">
-                <p onClick={scrollToSkills}>Skills</p>
+                <p onClick={() => scrollToSection('skills')}>Skills</p>
+                <p onClick={() => scrollToSection('projects')}>Projects</p>
                 <p>About</p>
-                <p>Projects</p>
                 <p>Contact</p>
             </div>
         </header>
