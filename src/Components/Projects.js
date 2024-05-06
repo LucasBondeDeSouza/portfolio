@@ -4,6 +4,7 @@ import './Projects.css'
 
 import Conversao_aritmetica from '../assets/conversao-aritmetica.png'
 import Relogio_mundial from '../assets/relogio-mundial.png'
+import Cardapio_online from '../assets/cardapio-online.png'
 
 import Logo_HTML from '../assets/logo-html.png'
 import Logo_CSS from '../assets/logo-css.png'
@@ -29,54 +30,18 @@ export default () => {
                         <div className="Projects--image">
                             <img src={Conversao_aritmetica} alt="Conversão Aritmética" />
                         </div>
-                        <div className="Projects--name">
-                            <h2>Conversão Aritmética</h2>
-                        </div>
-                        <div className="Projects--description">
-                            <p>odoeodkoekdoek</p>
-                        </div>
-                        <div className="Projects--languages">
-                            <img src={Logo_HTML} alt="HTML" />
-                            <img src={Logo_CSS} alt="CSS" />
-                            <img src={Logo_Python} alt="Python" />
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://lucasbondedesouza.github.io/projeto_relogio/html/relogio.html" target="_blank">
-                    <div className="Projects--card">
-                        <div className="Projects--image">
-                            <img src={Relogio_mundial} alt="Relógio Mundial" />
-                        </div>
-                        <div className="Projects--name">
-                            <h2>Relógio Mundial</h2>
-                        </div>
-                        <div className="Projects--description">
-                            <p>odoeodkoekdoek</p>
-                        </div>
-                        <div className="Projects--languages">
-                            <img src={Logo_HTML} alt="HTML" />
-                            <img src={Logo_CSS} alt="CSS" />
-                            <img src={Logo_JS} alt="JavaScript" />
-                        </div>
-                    </div>
-                </a>
-
-                <a href="https://conversao-decimal.vercel.app/" target="_blank">
-                    <div className="Projects--card">
-                        <div className="Projects--image">
-                            <img src={Conversao_aritmetica} alt="Conversão Aritmética" />
-                        </div>
-                        <div className="Projects--name">
-                            <h2>Conversão Aritmética</h2>
-                        </div>
-                        <div className="Projects--description">
-                            <p>odoeodkoekdoek</p>
-                        </div>
-                        <div className="Projects--languages">
-                            <img src={Logo_HTML} alt="HTML" />
-                            <img src={Logo_CSS} alt="CSS" />
-                            <img src={Logo_Python} alt="Python" />
+                        <div className="Projects--info">
+                            <div className="Projects--name">
+                                <h2>Conversão Aritmética</h2>
+                            </div>
+                            <div className="Projects--description">
+                                <p>Este é um projeto de conversão de números decimais para binário, octal ou hexadecimal desenvolvido em Flask.</p>
+                            </div>
+                            <div className="Projects--languages">
+                                <img src={Logo_HTML} alt="HTML" />
+                                <img src={Logo_CSS} alt="CSS" />
+                                <img src={Logo_Python} alt="Python" />
+                            </div>
                         </div>
                     </div>
                 </a>
@@ -86,16 +51,58 @@ export default () => {
                         <div className="Projects--image">
                             <img src={Relogio_mundial} alt="Relógio Mundial" />
                         </div>
-                        <div className="Projects--name">
-                            <h2>Relógio Mundial</h2>
+                        <div className="Projects--info">
+                            <div className="Projects--name">
+                                <h2>Relógio Mundial</h2>
+                            </div>
+                            <div className="Projects--description">
+                                <p>odoeodkoekdoek</p>
+                            </div>
+                            <div className="Projects--languages">
+                                <img src={Logo_HTML} alt="HTML" />
+                                <img src={Logo_CSS} alt="CSS" />
+                                <img src={Logo_JS} alt="JavaScript" />
+                            </div>
                         </div>
-                        <div className="Projects--description">
-                            <p>odoeodkoekdoek</p>
+                    </div>
+                </a>
+
+                <a href="https://cardapio-online-lac.vercel.app/" target="_blank">
+                    <div className="Projects--card">
+                        <div className="Projects--image">
+                            <img src={Cardapio_online} alt="Cardapio online" />
                         </div>
-                        <div className="Projects--languages">
-                            <img src={Logo_HTML} alt="HTML" />
-                            <img src={Logo_CSS} alt="CSS" />
-                            <img src={Logo_JS} alt="JavaScript" />
+                        <div className="Projects--info">
+                            <div className="Projects--name">
+                                <h2>Cardápio Online</h2>
+                            </div>
+                            <div className="Projects--description">
+                                <p>odoeodkoekdoek</p>
+                            </div>
+                            <div className="Projects--languages">
+                                <img src={Logo_HTML} alt="HTML" />
+                                <img src={Logo_Tailwind} alt="Tailwind" />
+                                <img src={Logo_JS} alt="JavaScript" />
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://lucasbondedesouza.github.io/projeto_relogio/html/relogio.html" target="_blank">
+                    <div className="Projects--card">
+                        <div className="Projects--image">
+                            <img src={Relogio_mundial} alt="Relógio Mundial" />
+                        </div>
+                        <div className="Projects--info">
+                            <div className="Projects--name">
+                                <h2>Clone Netflix</h2>
+                            </div>
+                            <div className="Projects--description">
+                                <p>odoeodkoekdoek</p>
+                            </div>
+                            <div className="Projects--languages">
+                                <img src={Logo_React} alt="HTML" />
+                            </div>
                         </div>
                     </div>
                 </a>
