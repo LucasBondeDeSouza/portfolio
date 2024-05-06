@@ -88,7 +88,7 @@ export default () => {
                     </div>
                 </a>
 
-                <a href="https://lucasbondedesouza.github.io/projeto_relogio/html/relogio.html" target="_blank">
+                <a href="https://clone-netflix-seven-zeta.vercel.app/" target="_blank">
                     <div className="Projects--card">
                         <div className="Projects--image">
                             <img src={Relogio_mundial} alt="Relógio Mundial" />
