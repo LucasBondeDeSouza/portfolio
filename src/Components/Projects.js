@@ -5,6 +5,7 @@ import './Projects.css'
 import Conversao_aritmetica from '../assets/conversao-aritmetica.png'
 import Relogio_mundial from '../assets/relogio-mundial.png'
 import Cardapio_online from '../assets/cardapio-online.png'
+import Clone_netflix from '../assets/clone-netflix.png'
 
 import Logo_HTML from '../assets/logo-html.png'
 import Logo_CSS from '../assets/logo-css.png'
@@ -56,7 +57,7 @@ export default () => {
                                 <h2>Relógio Mundial</h2>
                             </div>
                             <div className="Projects--description">
-                                <p>odoeodkoekdoek</p>
+                                <p>Aplicação web que permite visualizar a hora e temperatura atual em diferentes cidades ao redor do mundo com precisão.</p>
                             </div>
                             <div className="Projects--languages">
                                 <img src={Logo_HTML} alt="HTML" />
@@ -81,6 +82,7 @@ export default () => {
                             </div>
                             <div className="Projects--languages">
                                 <img src={Logo_HTML} alt="HTML" />
+                                <img src={Logo_CSS} alt="CSS" />
                                 <img src={Logo_Tailwind} alt="Tailwind" />
                                 <img src={Logo_JS} alt="JavaScript" />
                             </div>
@@ -91,7 +93,7 @@ export default () => {
                 <a href="https://clone-netflix-seven-zeta.vercel.app/" target="_blank">
                     <div className="Projects--card">
                         <div className="Projects--image">
-                            <img src={Relogio_mundial} alt="Relógio Mundial" />
+                            <img src={Clone_netflix} alt="Relógio Mundial" />
                         </div>
                         <div className="Projects--info">
                             <div className="Projects--name">
@@ -101,7 +103,7 @@ export default () => {
                                 <p>odoeodkoekdoek</p>
                             </div>
                             <div className="Projects--languages">
-                                <img src={Logo_React} alt="HTML" />
+                                <img src={Logo_React} alt="React" />
                             </div>
                         </div>
                     </div>
