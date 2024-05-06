@@ -5,6 +5,8 @@ import './Skills.css'
 import Logo_HTML from '../assets/logo-html.png'
 import Logo_CSS from '../assets/logo-css.png'
 import Logo_JS from '../assets/logo-js.png'
+import Logo_Bootstrap from '../assets/logo-bootstrap.png'
+import Logo_Tailwind from '../assets/logo-tailwind.png'
 import Logo_Java from '../assets/logo-java.png'
 import Logo_Python from '../assets/logo-python.png'
 import Logo_React from '../assets/logo-react.png'
@@ -43,6 +45,24 @@ export default () => {
                     </div>
                     <div className="Skills--name">
                         <p>JavaScript</p>
+                    </div>
+                </div>
+
+                <div className="Skills--card">
+                    <div className="Skills-image">
+                        <img src={Logo_Bootstrap} alt="Bootstrap" />
+                    </div>
+                    <div className="Skills--name">
+                        <p>Bootstrap</p>
+                    </div>
+                </div>
+
+                <div className="Skills--card">
+                    <div className="Skills-image">
+                        <img src={Logo_Tailwind} alt="tailwind" />
+                    </div>
+                    <div className="Skills--name">
+                        <p>Tailwind</p>
                     </div>
                 </div>
 
