@@ -4,7 +4,6 @@ import Typical from 'react-typical';
 import './Main.css'
 
 import Avatar from '../assets/avatar.png'
-import Nav from './Nav';
 
 export default () => {
 
