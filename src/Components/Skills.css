@@ -55,6 +55,32 @@
     font-weight: bold;
 }
 
+.toRight {
+    animation: toRight 1.5s ;
+}
+
+.toLeft {
+    animation: toLeft 1.5s ;
+}
+
+@keyframes toRight {
+    from {
+        transform: translateX(-700px);
+    }
+    to {
+        transform: translate(0px);
+    }
+}
+
+@keyframes toLeft {
+    from {
+        transform: translateX(550px);
+    }
+    to {
+        transform: translate(0px);
+    }
+}
+
 @media screen and (min-width: 768px) {
     .Skills h2 {
         font-size: 70px;

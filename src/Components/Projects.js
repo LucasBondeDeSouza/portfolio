@@ -27,7 +27,7 @@ export default () => {
 
             <div className="Projects--group">
                 <a href="https://conversao-decimal.vercel.app/" target="_blank">
-                    <div className="Projects--card">
+                    <div className="Projects--card toRight">
                         <div className="Projects--image">
                             <img src={Conversao_aritmetica} alt="Conversão Aritmética" />
                         </div>
@@ -48,7 +48,7 @@ export default () => {
                 </a>
 
                 <a href="https://lucasbondedesouza.github.io/projeto_relogio/html/relogio.html" target="_blank">
-                    <div className="Projects--card">
+                    <div className="Projects--card toLeft">
                         <div className="Projects--image">
                             <img src={Relogio_mundial} alt="Relógio Mundial" />
                         </div>
@@ -69,7 +69,7 @@ export default () => {
                 </a>
 
                 <a href="https://cardapio-online-lac.vercel.app/" target="_blank">
-                    <div className="Projects--card">
+                    <div className="Projects--card toRight">
                         <div className="Projects--image">
                             <img src={Cardapio_online} alt="Cardapio online" />
                         </div>
@@ -91,7 +91,7 @@ export default () => {
                 </a>
 
                 <a href="https://clone-netflix-seven-zeta.vercel.app/" target="_blank">
-                    <div className="Projects--card">
+                    <div className="Projects--card toLeft">
                         <div className="Projects--image">
                             <img src={Clone_netflix} alt="Relógio Mundial" />
                         </div>

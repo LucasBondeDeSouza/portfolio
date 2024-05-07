@@ -13,9 +13,9 @@ const Nav = () => {
         <header>
             <h1 onClick={() => scrollToSection('main')}>Portfólio</h1>
             <div className="Nav">
+                <p>About</p>
                 <p onClick={() => scrollToSection('skills')}>Skills</p>
                 <p onClick={() => scrollToSection('projects')}>Projects</p>
-                <p>About</p>
                 <p>Contact</p>
             </div>
         </header>

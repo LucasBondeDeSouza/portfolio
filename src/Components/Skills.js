@@ -21,7 +21,7 @@ export default () => {
             <p>Skills</p>
 
             <div className="Skills--group">
-                <div className="Skills--card">
+                <div className="Skills--card toRight">
                     <div className="Skills-image">
                         <img src={Logo_HTML} alt="Html" />
                     </div>
@@ -30,7 +30,7 @@ export default () => {
                     </div>
                 </div>
 
-                <div className="Skills--card">
+                <div className="Skills--card toRight">
                     <div className="Skills-image">
                         <img src={Logo_CSS} alt="Css" />
                     </div>
@@ -39,7 +39,7 @@ export default () => {
                     </div>
                 </div>
 
-                <div className="Skills--card">
+                <div className="Skills--card toLeft">
                     <div className="Skills-image">
                         <img src={Logo_JS} alt="JS" />
                     </div>
@@ -48,7 +48,7 @@ export default () => {
                     </div>
                 </div>
 
-                <div className="Skills--card">
+                <div className="Skills--card toLeft">
                     <div className="Skills-image">
                         <img src={Logo_Bootstrap} alt="Bootstrap" />
                     </div>
@@ -57,7 +57,7 @@ export default () => {
                     </div>
                 </div>
 
-                <div className="Skills--card">
+                <div className="Skills--card toRight">
                     <div className="Skills-image">
                         <img src={Logo_Tailwind} alt="tailwind" />
                     </div>
@@ -66,7 +66,7 @@ export default () => {
                     </div>
                 </div>
 
-                <div className="Skills--card">
+                <div className="Skills--card toRight">
                     <div className="Skills-image">
                         <img src={Logo_Java} alt="Java" />
                     </div>
@@ -75,7 +75,7 @@ export default () => {
                     </div>
                 </div>
 
-                <div className="Skills--card">
+                <div className="Skills--card toLeft">
                     <div className="Skills-image">
                         <img src={Logo_Python} alt="Python" />
                     </div>
@@ -84,7 +84,7 @@ export default () => {
                     </div>
                 </div>
 
-                <div className="Skills--card">
+                <div className="Skills--card toLeft">
                     <div className="Skills-image">
                         <img src={Logo_NodeJs} alt="NodeJs" />
                     </div>
@@ -93,7 +93,7 @@ export default () => {
                     </div>
                 </div>
 
-                <div className="Skills--card">
+                <div className="Skills--card toRight">
                     <div className="Skills-image">
                         <img src={Logo_React} alt="React" />
                     </div>
@@ -102,7 +102,7 @@ export default () => {
                     </div>
                 </div>
 
-                <div className="Skills--card">
+                <div className="Skills--card toRight">
                     <div className="Skills-image">
                         <img src={Logo_Vue} alt="Vue" />
                     </div>
@@ -111,7 +111,7 @@ export default () => {
                     </div>
                 </div>
 
-                <div className="Skills--card">
+                <div className="Skills--card toLeft">
                     <div className="Skills-image">
                         <img src={Logo_MySql} alt="MySql" />
                     </div>
@@ -120,7 +120,7 @@ export default () => {
                     </div>
                 </div>
 
-                <div className="Skills--card">
+                <div className="Skills--card toLeft">
                     <div className="Skills-image">
                         <img src={Logo_Git} alt="Git" />
                     </div>
