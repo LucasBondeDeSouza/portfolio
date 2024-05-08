@@ -11,11 +11,12 @@
     color: #fff;
     font-size: 70px;
     font-weight: bold;
+    padding-top: 30px;
 }
 
 .About--content {
     max-width: 500px;
-    margin: 25px;
+    margin: 30px 25px;
     padding: 20px;
     border-radius: 10px;
     background-color: #4E555E;

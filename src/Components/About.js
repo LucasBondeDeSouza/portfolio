@@ -8,6 +8,7 @@ export default () => {
     return (
         <div id="about" className="About">
             <p>About Me</p>
+            
             <div className="About--content toRight">
                 <div className='About--img'>
                     <img src={Img_about} alt='Imagem about' />
