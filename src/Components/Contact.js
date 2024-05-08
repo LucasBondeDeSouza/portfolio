@@ -8,7 +8,7 @@ export default () => {
             <p>Contact</p>
 
             <div className="Contact--content">
-                ...
+                EM CONSTRUÇÂO...
             </div>
         </div>
     )
