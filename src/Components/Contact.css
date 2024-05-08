@@ -23,33 +23,3 @@
     border-radius: 10px;
     background-color: #4E555E;
 }
-
-.Contact--resume {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-}
-
-.Contact--resume--text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-
-.Contact--resume--text h2 {
-    color: #fff;
-}
-
-.Contact--resume a {
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-    border-radius: 20px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #fff;
-    background-color: #000;
-}

@@ -15,11 +15,14 @@
 }
 
 .About--content {
+    display: flex;
+    flex-direction: column;
     max-width: 500px;
     margin: 30px 25px;
     padding: 20px;
     border-radius: 10px;
     background-color: #4E555E;
+    gap: 15px;
 }
 
 .About--content p {
@@ -31,9 +34,47 @@
     display: none;
 }
 
+.About--text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.About--resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #fff;
+    padding-top: 15px;
+    gap: 10px;
+}
+
+.About--resume--text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.About--resume--text h2 {
+    color: aqua;
+}
+
+.About--resume a {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(to Right, aqua 5%, blue 95%);
+}
+
 @media screen and (min-width: 768px) {
     .About--content {
-        display: flex;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         gap: 20px;
