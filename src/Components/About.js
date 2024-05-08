@@ -23,10 +23,10 @@ export default () => {
 
                     <div className="About--resume">
                         <div className="About--resume--text">
-                            <h2>Baixe meu Portfólio</h2>
+                            <h2>Baixe meu Currículo</h2>
                             <h2><FaArrowDown /></h2>
                         </div>
-                        <a href={Curriculo} download='Curriculo_Lucas.docx'>Download do portfólio</a>
+                        <a href={Curriculo} download='Curriculo_Lucas.docx'>Download do currículo</a>
                     </div>
                 </div>
             </div>
