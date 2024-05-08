@@ -1,0 +1,33 @@
+.Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #17202C;
+    min-height: 100vh;
+}
+
+.Contact p {
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+    padding-top: 70px;
+}
+
+.Contact--content {
+    max-width: 500px;
+    margin: 30px 25px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #4E555E;
+}
+
+.Contact--resume--text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.Contact--resume--text h2 {
+    color: #fff;
+}
