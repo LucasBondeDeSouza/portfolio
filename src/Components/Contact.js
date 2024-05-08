@@ -17,7 +17,17 @@ export default () => {
                         <h2>Baixe meu Portfólio</h2>
                         <h2><FaArrowDown /></h2>
                     </div>
-                    <a href={Curriculo} download='Curriculo_Lucas.docx'>Download do arquivo</a>
+                    <a href={Curriculo} download='Curriculo_Lucas.docx'>Download do portfólio</a>
+                </div>
+
+                <hr />
+
+                <div className="Contact--resume">
+                    <div className="Contact--resume--text">
+                        <h2>Baixe meu Portfólio</h2>
+                        <h2><FaArrowDown /></h2>
+                    </div>
+                    <a href={Curriculo} download='Curriculo_Lucas.docx'>Download do portfólio</a>
                 </div>
             </div>
         </div>
