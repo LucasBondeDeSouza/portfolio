@@ -4,7 +4,7 @@
     align-items: center;
     background-color: #17202C;
     padding-top: 70px;
-    height: 150vh;
+    min-height: 140vh;
 }
 
 .Contact > p {
@@ -30,29 +30,41 @@
     border-radius: 10px;
 }
 
-article {
+.Contact--description {
+    display: flex;
+    flex-direction: column;
+}
+
+.Contact--description > article {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 10px;
+    padding: 10px;
     border-bottom: 1px solid #fff;
 }
 
-article > h3 {
+.Contact--description > article > h3 {
     color: #fff;
     text-align: center;
     font-size: 25px;
 }
 
-article > a, article > p {
+.Contact--description > article > a, .Contact--description > article > p {
     text-align: center;
     color: aqua;
     font-weight: bold;
 }
 
-article > a {
+.Contact--description > article > a {
     color: #fff;
     background: linear-gradient(to Right, aqua 5%, blue 95%);
     border-radius: 20px;
     padding: 10px 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .Contact--content {
+        flex-direction: row;
+        width: 900px;
+    }
 }

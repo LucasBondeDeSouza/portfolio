@@ -13,29 +13,32 @@ export default () => {
                 <div className="Contact--image">
                     <img src={Contact} alt='Contact Img' />
                 </div>
-                <article>
-                    <h3>Email</h3>
-                    <p>bondelucas77@gmail.com</p>
-                </article>
+                
+                <div className="Contact--description">
+                    <article>
+                        <h3>Email</h3>
+                        <p>bondelucas77@gmail.com</p>
+                    </article>
 
-                <article>
-                    <h3>Linkedin</h3>
-                    <a href="https://www.linkedin.com/in/lucasbonde" target="_blank">
-                        <p>Visulizar Perfil</p>
-                    </a>
-                </article>
+                    <article>
+                        <h3>Linkedin</h3>
+                        <a href="https://www.linkedin.com/in/lucasbonde" target="_blank">
+                            <p>Visulizar Perfil</p>
+                        </a>
+                    </article>
 
-                <article>
-                    <h3>Github</h3>
-                    <a href="https://github.com/LucasBondeDeSouza" target="_blank">
-                        <p>Visulizar Perfil</p>
-                    </a>
-                </article>
+                    <article>
+                        <h3>Github</h3>
+                        <a href="https://github.com/LucasBondeDeSouza" target="_blank">
+                            <p>Visulizar Perfil</p>
+                        </a>
+                    </article>
 
-                <article>
-                    <h3>Celular</h3>
-                    <p>(11) 98544-2354</p>
-                </article>
+                    <article>
+                        <h3>Celular</h3>
+                        <p>(11) 98544-2354</p>
+                    </article>
+                </div>
             </div>
         </div>
     )
