@@ -65,6 +65,26 @@
 @media screen and (min-width: 768px) {
     .Contact--content {
         flex-direction: row;
-        width: 900px;
+        justify-content: space-between;
+        align-items: center;
+        width: 815px;
+        height: 300px;
+        gap: 50px;
+    }
+
+    .Contact--image img {
+        height: 100%;
+    }
+
+    .Contact--description {
+        width: 100%;
+    }
+
+    .Contact--description > article > h3 {
+        font-size: 35px;
+    }
+
+    .Contact--description > article > a, .Contact--description > article > p {
+        font-size: 20px;
     }
 }
