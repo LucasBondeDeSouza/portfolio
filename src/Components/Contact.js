@@ -2,12 +2,17 @@ import React from "react";
 
 import './Contact.css'
 
+import Contact from '../assets/contact.png'
+
 export default () => {
     return (
         <div id="contact" className="Contact">
             <p>Contact</p>
 
-            <div className="Contact--content">
+            <div className="Contact--content toRight">
+                <div className="Contact--image">
+                    <img src={Contact} alt='Contact Img' />
+                </div>
                 <article>
                     <h3>Email</h3>
                     <p>bondelucas77@gmail.com</p>
