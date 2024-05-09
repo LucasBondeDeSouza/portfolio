@@ -55,6 +55,7 @@ h1 {
     background-color: #fff;
     border-radius: 50%;
     transition: all 1s ease;
+    z-index: 999;
     cursor: pointer;
 }
 
