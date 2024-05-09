@@ -1,15 +1,33 @@
-import React from "react";
-import './Nav.css'
-
+import React, { useState, useEffect } from "react";
 import { FaArrowUp } from 'react-icons/fa';
+import './Nav.css';
 
 const Nav = () => {
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const scrollPosition = window.scrollY;
+            if (scrollPosition > 0) {
+                setIsScrolled(true);
+            } else {
+                setIsScrolled(false);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
     const scrollToSection = (id) => {
         const element = document.getElementById(id);
         if (element) {
             element.scrollIntoView({ behavior: "smooth" });
         }
-    }
+    };
 
     return (
         <React.Fragment>
@@ -23,11 +41,11 @@ const Nav = () => {
                 </div>
             </header>
 
-            <div onClick={() => scrollToSection('main')} className="Scroll-top">
+            <div onClick={() => scrollToSection('main')} className={`Scroll-top ${isScrolled ? 'show' : ''}`}>
                 <FaArrowUp />
             </div>
         </React.Fragment>
     );
-}
+};
 
 export default Nav;

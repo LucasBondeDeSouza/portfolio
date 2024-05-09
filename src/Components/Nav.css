@@ -48,14 +48,18 @@ h1 {
     font-size: 20px;
     position: fixed;
     color: #222;
-    bottom: 20px;
-    right: 20px;
+    bottom: 50px;
+    right: -50px;
     height: 35px;
     width: 35px;
     background-color: #fff;
     border-radius: 50%;
     transition: all .5s ease;
     cursor: pointer;
+}
+
+.Scroll-top.show {
+    right: 20px;
 }
 
 @media screen and (min-width: 768px) {
