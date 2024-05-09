@@ -54,7 +54,7 @@ h1 {
     width: 35px;
     background-color: #fff;
     border-radius: 50%;
-    transition: all .5s ease;
+    transition: all 1s ease;
     cursor: pointer;
 }
 
