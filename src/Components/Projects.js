@@ -26,27 +26,6 @@ export default () => {
             <p>Projects</p>
 
             <div className="Projects--group">
-            <a href="https://tindog-omega-two.vercel.app/" target="_blank">
-                    <div className="Projects--card toRight">
-                        <div className="Projects--image">
-                            <img src={Conversao_aritmetica} alt="Conversão Aritmética" />
-                        </div>
-                        <div className="Projects--info">
-                            <div className="Projects--name">
-                                <h2>tinDog</h2>
-                            </div>
-                            <div className="Projects--description">
-                                <p>Este é um projeto de conversão de números decimais para binário, octal ou hexadecimal desenvolvido em Flask.</p>
-                            </div>
-                            <div className="Projects--languages">
-                                <img src={Logo_HTML} alt="HTML" />
-                                <img src={Logo_CSS} alt="CSS" />
-                                <img src={Logo_Bootstrap} alt="Bootstrap" />
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
                 <a href="https://conversao-decimal.vercel.app/" target="_blank">
                     <div className="Projects--card toRight">
                         <div className="Projects--image">
